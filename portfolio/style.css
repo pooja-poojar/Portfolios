@@ -1,0 +1,358 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  border-style:2px solid #07374a;
+  background-color:black;
+ height: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/* ////........Navbar.......//// */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+}
+.navbar-brand img{
+  object-fit: cover;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.menu-items {
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  padding: 16px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #f0f0e6;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.menu-items a:hover {
+  border-bottom: 2px solid #f0f0e6;
+}
+
+
+
+/* ////........Home Content........//// */
+.home-content{
+  background: url(th\ \(2\).jpeg);
+  object-fit: cover;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+
+}
+
+.home-content .name {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.home-content .name h1 {
+  font-size: 40px;
+  text-align: center;
+ 
+}
+
+.home-content .name p {
+  color:black;
+  font-size: 20px;
+  
+}
+
+
+/* ////........About Me........//// */
+
+.about-me {
+  background-color: #07374a;
+  padding: 60px ;
+  height: 800px;
+}
+
+.about-me .about-heading {
+    
+  color: #25b79f;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about-content img{
+  height: 350px;
+  width: 280px;
+  object-fit: cover;
+  align-items: center;
+  border-radius: 50%;
+
+}
+
+.about-content p {
+  font-size: 20px;
+  color: #f0f0e6;
+  padding-left: 40px;
+  text-align: center;
+
+}
+
+
+.about-content .middle-content {
+  text-align: center;
+}
+
+
+
+/* ///.....education Bar....../// */
+.Education{
+    background-color:darkturquoise;
+    padding: 50px;
+    height: 800px;
+  }
+  .Education .educ-heading {
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+    
+  
+  .educ-content .middle{
+    
+    font-size: 32px;
+    color: #0a0a03;
+    text-align: center;
+    
+  }
+  
+  .educ-content .edu-table{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:antiquewhite;
+    text-align: center;
+    justify-content: center; 
+    
+   }
+
+   .edu-table td{
+    padding: 10px;
+    
+   } 
+ 
+
+
+/* project */
+.projects {
+  background-color:darkgray;
+  padding: 32px 0;
+  
+  height: 800px;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 50px;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.project-container {
+  width: 17.875rem;
+}
+
+
+/* certificates */
+.certificate{
+    background-color:darkkhaki;
+    padding: 50px;
+    height: 800px;
+}
+.certificate .cert-heading{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.cert-content .certifi{
+    height: 600px;
+    width: 1200px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.cert-heading h1{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.certifi ul{
+  align-items: center;
+  justify-content: center;
+  padding-left: 25%;
+}
+
+
+/* ////......Contact......///// */
+
+.contact {
+  background: #07374a;
+  position: relative;
+  height: 800px;
+}
+.contact .contact-heading{
+  font-size: 35px;
+  font-weight: 400;
+  color:aliceblue;
+  padding-bottom:20px ;
+  padding-top: 10px;
+}
+.contact-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact-detail {
+  padding-bottom: 10px;
+  color:azure;
+}
+
+.contact-content a {
+  text-decoration: none;
+  color:aqua;
+  padding: 12px;
+  transition: 0.3s ease-in-out;
+}
+.ad-p p{
+  padding: 5px;
+  color: white;
+  
+}
+
+.contact-content a:hover {
+  color:blueviolet;
+}
+
+.contact-content .cont-f{
+display:flex;
+padding: 10px;
+width: 500px;
+border: 2px groove(internal value);
+padding-top: 20px;
+text-align: center;
+justify-content: center;
+background-color:bisque;
+padding-right: 50px;
+}
+
+ .cont table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.cont td{
+    padding: 10px;
+}
+.cont_button{
+ display: block;
+ border: none;
+ outline:none;
+ font-size: var(--normal-font-size);
+ cursor: pointer;
+ margin-left: 200px;
+ 
+}
+.button{
+  display: inline;
+  background-color: var(--first-color);
+  color:black;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: var(--font-semi);
+  transition: .3s;
+
+}
+.button:hover{
+  box-shadow:0px 10px 36px #0a0a03;
+}
+.contact-content .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07374a;
+    margin-top: 40px;
+}
